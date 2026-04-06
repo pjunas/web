@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Picks – Trending Products & Reviews</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; color: #222; line-height: 1.6; }
+        header { background: #232f3e; color: white; padding: 1.5rem 2rem; }
+        header h1 { font-size: 1.6rem; }
+        header p { color: #aaa; font-size: 0.9rem; margin-top: 0.3rem; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        .hero { background: #f0f4ff; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+        .hero h2 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+        .hero p { color: #555; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+        .card { border: 1px solid #e0e0e0; border-radius: 10px; padding: 1.2rem; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+        .card h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+        .card p { font-size: 0.85rem; color: #666; margin-bottom: 1rem; }
+        .card a { display: inline-block; background: #ff9900; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+        .card a:hover { background: #e68a00; }
+        .tag { display: inline-block; background: #eef; color: #336; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; margin-bottom: 0.5rem; }
+        footer { text-align: center; padding: 2rem; color: #999; font-size: 0.8rem; margin-top: 3rem; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🛍️ Product Picks</h1>
+        <p>Trending products curated daily from around the web</p>
+    </header>
+    <div class="container">
+        <div class="hero">
+            <h2>What's trending today?</h2>
+            <p>We track trending topics and surface the most relevant products so you don't have to. Updated daily with fresh picks across all categories.</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <span class="tag">🔥 Trending</span>
+                <h3>Top Rated Wireless Earbuds</h3>
+                <p>The most searched audio gear this week — great sound, long battery life, and under $50.</p>
+                <a href="https://www.amazon.com/s?k=wireless+earbuds" target="_blank">View on Amazon</a>
+            </div>
+            <div class="card">
+                <span class="tag">🏠 Home</span>
